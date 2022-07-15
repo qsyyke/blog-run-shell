@@ -1,7 +1,7 @@
 #!/bin/bash
 
+# 编译
 cd /opt/aurora-theme/file/aurora-blog
-
 mvn compile
 
 rm -rf /opt/aurora-theme/run-jar/jar/*
