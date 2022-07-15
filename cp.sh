@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd /opt/aurora-theme/file/aurora-blog
+
+mvn compile
+
 rm -rf /opt/aurora-theme/run-jar/jar/*
 
 \cp -r /opt/aurora-theme/file/aurora-blog/aurora-modules/admin-boot/target/admin-boot-1.0-SNAPSHOT.jar /opt/aurora-theme/run-jar/jar/
